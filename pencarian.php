@@ -137,10 +137,11 @@ if( isset( $_REQUEST[ 'Submit' ] ) ) {
     while( $row = mysqli_fetch_assoc( $result ) ) {
         // Get values
         $id = $row["id"];
+        $username = $row["username"];
         $text  = $row["text"];
 
         // Feedback for end user
-        echo "<h4>ID: {$id}<br />Pesan: {$text} </h4>";
+        echo "<h4>ID: {$id}<br /> Username {$username} </br> Pesan: {$text} </h4>";
     }
 }
 
