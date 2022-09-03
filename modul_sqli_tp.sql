@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 30, 2022 at 01:26 PM
+-- Generation Time: Sep 03, 2022 at 08:07 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.9
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `kunci` (
-  `id` int(10) NOT NULL,
+  `id` int(11) NOT NULL,
   `text` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -37,8 +37,7 @@ CREATE TABLE `kunci` (
 --
 
 INSERT INTO `kunci` (`id`, `text`) VALUES
-(0, 'jancuk'),
-(1, 'wow');
+(0, 'admin');
 
 -- --------------------------------------------------------
 
@@ -49,7 +48,7 @@ INSERT INTO `kunci` (`id`, `text`) VALUES
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
-  `pass` varchar(15) NOT NULL,
+  `pass` varchar(32) NOT NULL,
   `level` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -58,8 +57,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `pass`, `level`) VALUES
-(0, 'admin', '*4ACFE3202A5FF5', 'admin'),
-(1, 'hamzah', 'password', 'wibu');
+(0, 'admin', '827ccb0eea8a706c4c34a16891f84e7b', 'admin'),
+(1, 'watashi', '5f4dcc3b5aa765d61d8327deb882cf99', 'wibu'),
+(2, 'tanjirou', 'e10adc3949ba59abbe56e057f20f883e', 'super');
 
 --
 -- Indexes for dumped tables
