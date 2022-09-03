@@ -30,9 +30,10 @@
             <strong>Berhasil Berhasil Berhasil Horee, we did it !!</strong>
         </div>
         <br>
-        <center><img src="images/dora.jfif" style="width:50%"></center><br>
+        <center><img src="images/sasundin.jfif" style="width:50%"></center><br>
         <br><br>
         <h4> Screenshot Full Layar Mu hingga Memperlihatkan Jam Sebagai Bukti Kamu Telah Berhasil Hore</h4><br>
+        
 </center>
 
 </html>

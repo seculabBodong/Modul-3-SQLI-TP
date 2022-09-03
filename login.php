@@ -1,15 +1,15 @@
 <?php
 session_start();
-require 'database.php';
+include 'database.php';
 
 // Redirect User When Already Login
 
 if( isset($_POST["login"]) ){
-		$username = $_REQUEST['username'];
-        $password = $_REQUEST['pass'];
+		$username = $_POST['username'];
+        $password = md5($_POST['pass']);
 		
 		// Check user is exist in the database
-		$query    = "SELECT * FROM `users` WHERE username='$username' AND pass='" . md5($password) . "'";
+		$query = "SELECT * FROM users WHERE username='$username' AND pass='$password'";
 	    $result = mysqli_query($con, $query);
 	    $rows = mysqli_num_rows($result);
 

@@ -31,15 +31,16 @@
                 <b><?php echo $_SESSION['level']; ?></b>.</p>
 
             <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g3jCAyPai2Y?autplay=1"
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=cC2J_d3xz5c&ab_channel=AnimeHype%E3%82%A2%E3%83%8B%E3%83%A1%E6%97%A5%E6%9C%AC"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
-            </iframe>
+            </iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cC2J_d3xz5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <br><br>
 
-            <h3>HTMLnya keren juga ya</h3>
+            <h3>Selamat kamu jadi angota watasi </h3>
 
             <!-- <a href="pencarian.php">Mencurigakan</a> -->
             <br>
