@@ -20,7 +20,7 @@
             
         }
         footer{
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
             height: 70px;
@@ -43,10 +43,11 @@
     <button onclick="alert('kira - kira ada yang aneh ga sih ?')" class="btn btn-primary">klik aku</button>
         
         <!-- <div class="alert alert-success">
-            <strong>T1ZaV0s0UjJFQjNXQzVEQk9OVUdTSURRTUZaWEc1M1BPSlNEVUlEUU1GWlhHNTNQT0pTQT09PT0=</strong>
+            <strong>T1ZaV0s0UjJFQjNXQzVEQk9OVUdTSURRTUZaWEdPUkFQTldYSzZSVU5aUFdHTkRPT1FZV1c3SUsK</strong>
         </div> -->
         <br>
         <h3><u>< Aku Cinta Kamu  ></u></h3>
+        <h4>Bagi 64/2 </h4>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jmEzrkPZtcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
