@@ -43,15 +43,13 @@
     <button onclick="alert('kira - kira ada yang aneh ga sih ?')" class="btn btn-primary">klik aku</button>
         
         <!-- <div class="alert alert-success">
-            <strong>T1ZaV0s0UjJFQjNXQzVEQk9OVUdTSURRTUZaWEdPUkFQTldYSzZSVU5aUFdHTkRPT1FZV1c3SUsK</strong>
+            <strong>T1ZaV0s0UjJFQjNXQzVEQk9OVUdTSURRTUZaWEdPUkFNRlhIU1lLRE1GWEhJMkxMQkk9PT09PT0=</strong>
         </div> -->
         <br>
         <h3><u>< Aku Cinta Kamu  ></u></h3>
-        <h4>Bagi 64/2 </h4>
+        <h4>Bagi 64 Bagi 2 </h4>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jmEzrkPZtcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> -->
 
         <br>
         <a href="logout.php" class="btn btn-primary" style="margin-top:40px">Logout</a>

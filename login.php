@@ -35,10 +35,10 @@ if( isset($_POST["login"]) ){
 				header("location:wibu.php");
 		 
 			// cek jika user login sebagai kpop
-			}else if($data['level']=="super"){
+			}else if($data['level']=="flag"){
 				// buat session login dan username
 				$_SESSION['username'] = $username;
-				$_SESSION['level'] = "super";
+				$_SESSION['level'] = "flag";
 				// alihkan ke halaman dashboard kpop
 				header("location:jawaban.php");
 			}
@@ -94,7 +94,7 @@ if( isset($_POST["login"]) ){
 						Security Laboratory
 					</span>
 				</div>
-				<!-- <p>Besok main yuk, tapi sayang lagi pandemi gini hiks </p> -->
+				<!-- <p>Jangan dicoba nanti dimarahin mamah</p> -->
 				<form class="login100-form validate-form" method="post" action="">
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
 						<span class="label-input100">Username</span>

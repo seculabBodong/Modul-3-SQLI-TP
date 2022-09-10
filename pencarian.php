@@ -4,6 +4,7 @@
 <head>
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/wait-a-minute-who-are-you.gif" />
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -120,6 +121,9 @@ footer {
             
 
 	<article>
+  <center>
+  <img src="images/wait-a-minute-who-are-you.gif" alt="IMG" height="20%" width="20%">
+</center>
 	<h3> Outputnya Disini : </h3>
 	<br>
 
@@ -137,11 +141,10 @@ if( isset( $_REQUEST[ 'Submit' ] ) ) {
     while( $row = mysqli_fetch_assoc( $result ) ) {
         // Get values
         $id = $row["id"];
-        $username = $row["username"];
         $text  = $row["text"];
 
         // Feedback for end user
-        echo "<h4>ID: {$id}<br /> Username {$username} </br> Pesan: {$text} </h4>";
+        echo "<h4>ID: {$id}</br> Pesan: {$text} </h4>";
     }
 }
 
