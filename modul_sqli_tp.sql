@@ -2,8 +2,8 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Sep 07, 2022 at 05:23 AM
+-- Host: localhost
+-- Generation Time: Sep 10, 2022 at 03:48 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -39,14 +39,17 @@ CREATE TABLE `kunci` (
 INSERT INTO `kunci` (`id`, `text`) VALUES
 (0, 'admin'),
 (1, 'aku wibu aku bangga'),
-(2, 'tanjirou\r\n{hooh}_ten4n'),
+(2, 'hooh tenan'),
 (3, 'rubick\r\nkyaa>.<'),
 (4, 'sorry bukan yang ini :))'),
 (5, 'waifu gweh'),
 (6, 'yes master'),
 (7, 'mending phantom assassin ato phantom lancer ?'),
 (8, 'serius bukan yang ini'),
-(9, 'giga chad here');
+(9, 'apakah aku data terakhir?'),
+(15, '\"sepertinya\" aku terakhir'),
+(22, 'NT DECK, CARI LAGI AMPE BAWAH'),
+(678, '{9Un4K4N_SQ1_P4t4}');
 
 -- --------------------------------------------------------
 
@@ -66,16 +69,19 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `pass`, `level`) VALUES
-(0, 'admin', 'c69d52b6381454f4eef0e693ab7910bd', 'admin'),
-(1, 'watashi', '921a0a10f8d237646dd028c5cc1af1c6', 'wibu'),
-(2, 'tanjirou', '48cf7e86ef4ea7e089a707fe33d4e52f', 'super'),
-(3, 'rubick', 'kyaa>.<', ''),
-(4, 'chamber', '', ''),
-(5, 'nilou', '123', ''),
-(6, 'master', '4321', ''),
-(7, 'phantom', '', ''),
-(8, 'anonymus', '', ''),
-(9, 'gigaChad', '=-=', '');
+(0, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'admin'),
+(1, 'watashi', 'efedb231bcc9a37726f1145b152e3a1f', 'wibu'),
+(2, 'dukun', '27e7d9365de641459965243d31d68106', 'flag'),
+(3, 'rubick', 'kyaa>.<', 'Selamat'),
+(4, 'chamber', '', 'Kamu'),
+(5, 'nilou', '123', 'Di Tahap'),
+(6, 'master', '4321', 'Akhir'),
+(7, 'phantom', '', 'Gunakan'),
+(8, 'anonymus', '', 'Web'),
+(9, 'gigaChad', '=-=', 'Dibawah'),
+(15, 'wadidaw', '', 'Untuk'),
+(22, 'ntdek', '', 'Decrypt'),
+(678, 'hint', '', 'https://md5decrypt.net/en/');
 
 --
 -- Indexes for dumped tables
